@@ -1,0 +1,3340 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sooryanarayan/ontologies/2022/11/EarlyRomanEmpire"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sooryanarayan/ontologies/2022/11/EarlyRomanEmpire">
+    <Prefix name="" IRI="http://www.semanticweb.org/sooryanarayan/ontologies/2022/11/EarlyRomanEmpire"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This is an ontology of the early roman empire</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Battlefield"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BirthPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buildings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Constructed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daughter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daughter_of_emperor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Death"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeathPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destroyed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emperor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family_relations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Father"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grand_son"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#King"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kingdom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Military"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_death"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Offspring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Old_age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Predecessor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Province"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RomanDefeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RomanVictory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Senator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Son"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Son_of_emperor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Successor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suicide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Town"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#battle_death"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#court_official"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#declared_heir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deposed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deposer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#governor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grand_daughter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#murder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#poisoning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#political"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soldier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#succession_based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#un-natural_death"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Battle_in_a_war"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Capital_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Won_battle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#born_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#daughter_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#daughter_of_emperor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#depose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#died_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#father_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#general_under"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#governor_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#governor_under"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#husband_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lost_battle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mother_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preceed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ruled_over"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#son-daughter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#son_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#son_of_emperor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#succeeded"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#succession"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#war-area"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wife_of"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Battle_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Battle_duration_days"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#date_of_death"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateofbirth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#emperor_reign"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rule_ended"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rule_start"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#war_end"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#war_period"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#war_start"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aelia_Domitia_Paulina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aelia_Paetina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aemilia_Lepida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alba_Pompeia_Italy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Annia_Galeria_Faustina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aquae_Cutiliae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arrecina_Tertulla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Augustus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aulus_Vitellius_Germanicus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aulus_Vitellius_Petronianus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Baiae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Berenice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brescello"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Britannicus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bruttia_Crispina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caenis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caracalla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Claudia_Antonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Claudia_Augusta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Claudia_Octavia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Claudius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Claudius_Drusus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Commodus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Didia_Clara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Domitia_Longina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Domitian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Domitilla_the_Elder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Domitilla_the_Younger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drusus_Julius_Caesar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eboracum_Britain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Falacrinum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Faustina_the_Younger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ferentium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flavia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flavia_Titiana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flavius_Caesar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Galba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Galeria_Fundana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Geta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hadrian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italica_Hispania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julia_Agrippina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julia_Domna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julia_Drusilla_the_younger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julia_Flavia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julia_the_Elder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julius_Caesar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Junia_Claudilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lanuvium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leptis_Magna_Africa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Livia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Livia_Orestilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lollia_Paulina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lorium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lucius_Aelius_Caesar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lucius_Calpurnius_Piso_Frugi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lucius_Verus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lugdunum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manlia_Scantilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marcia_Furnilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mediolanum_Italy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Milonia_Caesonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Misenum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Narni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nerva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Otho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paccia_Marciana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pertinax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plautia_Urgulanilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pompeia_Plotina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poppaea_Sabina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roman_Colosseum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selinua_Cilicia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Statilia_Messalina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Terracina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Titus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trajan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Valeria_Messalina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vespasian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vibia_Sabina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vindobana_Pannonia_Superia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vipsania_Agrippina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vitellia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vitellius"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Area"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Battlefield"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BirthPlace"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capital"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Constructed"/>
+        <Class IRI="#Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consul"/>
+        <Class IRI="#political"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daughter"/>
+        <Class IRI="#Family_relations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daughter_of_emperor"/>
+        <Class IRI="#Offspring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeathPlace"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destroyed"/>
+        <Class IRI="#Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <Class IRI="#Natural_death"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emperor"/>
+        <Class IRI="#political"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empire"/>
+        <Class IRI="#Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empress"/>
+        <Class IRI="#political"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Father"/>
+        <Class IRI="#Family_relations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General"/>
+        <Class IRI="#Military"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grand_son"/>
+        <Class IRI="#Family_relations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#King"/>
+        <Class IRI="#political"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kingdom"/>
+        <Class IRI="#Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Military"/>
+        <Class IRI="#Roles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mother"/>
+        <Class IRI="#Family_relations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_death"/>
+        <Class IRI="#Death"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Offspring"/>
+        <Class IRI="#Roles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Old_age"/>
+        <Class IRI="#Natural_death"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Predecessor"/>
+        <Class IRI="#succession_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Province"/>
+        <Class IRI="#Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RomanDefeat"/>
+        <Class IRI="#Battlefield"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RomanVictory"/>
+        <Class IRI="#Battlefield"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Senator"/>
+        <Class IRI="#political"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Son"/>
+        <Class IRI="#Family_relations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Son_of_emperor"/>
+        <Class IRI="#Offspring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Successor"/>
+        <Class IRI="#succession_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suicide"/>
+        <Class IRI="#un-natural_death"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Town"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battle_death"/>
+        <Class IRI="#un-natural_death"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#court_official"/>
+        <Class IRI="#political"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#declared_heir"/>
+        <Class IRI="#succession_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deposed"/>
+        <Class IRI="#succession_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deposer"/>
+        <Class IRI="#succession_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#governor"/>
+        <Class IRI="#political"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grand_daughter"/>
+        <Class IRI="#Family_relations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#murder"/>
+        <Class IRI="#un-natural_death"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#poisoning"/>
+        <Class IRI="#un-natural_death"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#political"/>
+        <Class IRI="#Roles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soldier"/>
+        <Class IRI="#Military"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#succession_based"/>
+        <Class IRI="#Roles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#un-natural_death"/>
+        <Class IRI="#Death"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Daughter_of_emperor"/>
+        <NamedIndividual IRI="#Aelia_Domitia_Paulina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Aelia_Paetina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Aemilia_Lepida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Alba_Pompeia_Italy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Annia_Galeria_Faustina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BirthPlace"/>
+        <NamedIndividual IRI="#Antium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Antium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeathPlace"/>
+        <NamedIndividual IRI="#Aquae_Cutiliae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Aquae_Cutiliae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Arrecina_Tertulla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Augustus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Augustus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Aulus_Vitellius_Germanicus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Aulus_Vitellius_Petronianus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeathPlace"/>
+        <NamedIndividual IRI="#Baiae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Baiae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Berenice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeathPlace"/>
+        <NamedIndividual IRI="#Brescello"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Britannicus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Bruttia_Crispina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Caenis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#deposed"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Caracalla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Caracalla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daughter_of_emperor"/>
+        <NamedIndividual IRI="#Claudia_Antonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daughter_of_emperor"/>
+        <NamedIndividual IRI="#Claudia_Augusta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daughter_of_emperor"/>
+        <NamedIndividual IRI="#Claudia_Octavia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Claudius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Claudius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Claudius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Claudius_Drusus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Commodus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Commodus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Commodus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Commodus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#murder"/>
+        <NamedIndividual IRI="#Commodus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daughter_of_emperor"/>
+        <NamedIndividual IRI="#Didia_Clara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Domitia_Longina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Domitian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Domitian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Domitian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Domitian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#deposed"/>
+        <NamedIndividual IRI="#Domitian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#murder"/>
+        <NamedIndividual IRI="#Domitian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Domitilla_the_Elder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daughter_of_emperor"/>
+        <NamedIndividual IRI="#Domitilla_the_Younger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Drusus_Julius_Caesar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Eboracum_Britain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BirthPlace"/>
+        <NamedIndividual IRI="#Falacrinum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Falacrinum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daughter_of_emperor"/>
+        <NamedIndividual IRI="#Faustina_the_Younger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BirthPlace"/>
+        <NamedIndividual IRI="#Ferentium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Ferentium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daughter_of_emperor"/>
+        <NamedIndividual IRI="#Flavia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Flavia_Titiana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Flavius_Caesar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Galba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Galba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Galba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#deposed"/>
+        <NamedIndividual IRI="#Galba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#murder"/>
+        <NamedIndividual IRI="#Galba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Galeria_Fundana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Geta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Geta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Hadrian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Hadrian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Hadrian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Hadrian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#declared_heir"/>
+        <NamedIndividual IRI="#Hadrian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Italica_Hispania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Julia_Agrippina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Julia_Domna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daughter_of_emperor"/>
+        <NamedIndividual IRI="#Julia_Drusilla_the_younger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daughter_of_emperor"/>
+        <NamedIndividual IRI="#Julia_Flavia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Julia_the_Elder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consul"/>
+        <NamedIndividual IRI="#Julius_Caesar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Julius_Caesar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Junia_Claudilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Lanuvium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Leptis_Magna_Africa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Livia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Livia_Orestilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Lollia_Paulina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Lorium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Lucius_Aelius_Caesar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Lucius_Calpurnius_Piso_Frugi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Lucius_Verus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BirthPlace"/>
+        <NamedIndividual IRI="#Lugdunum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Lugdunum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Manlia_Scantilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Marcia_Furnilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Mediolanum_Italy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Milonia_Caesonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeathPlace"/>
+        <NamedIndividual IRI="#Misenum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Misenum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BirthPlace"/>
+        <NamedIndividual IRI="#Narni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Narni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Nero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Nero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Nero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Suicide"/>
+        <NamedIndividual IRI="#Nero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Nerva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Natural_death"/>
+        <NamedIndividual IRI="#Nerva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Nerva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Nerva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#deposer"/>
+        <NamedIndividual IRI="#Nerva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Nola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consul"/>
+        <NamedIndividual IRI="#Otho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Otho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Otho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Otho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Suicide"/>
+        <NamedIndividual IRI="#Otho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#deposed"/>
+        <NamedIndividual IRI="#Otho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#deposer"/>
+        <NamedIndividual IRI="#Otho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#governor"/>
+        <NamedIndividual IRI="#Otho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Paccia_Marciana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Pertinax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Plautia_Urgulanilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Pompeia_Plotina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Poppaea_Sabina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Constructed"/>
+        <NamedIndividual IRI="#Roman_Colosseum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BirthPlace"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capital"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeathPlace"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Selinua_Cilicia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#deposer"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Statilia_Messalina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Terracina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consul"/>
+        <NamedIndividual IRI="#Titus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Titus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Titus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Son_of_emperor"/>
+        <NamedIndividual IRI="#Titus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Titus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Trajan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Trajan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Trajan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Valeria_Messalina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Vespasian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#General"/>
+        <NamedIndividual IRI="#Vespasian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Natural_death"/>
+        <NamedIndividual IRI="#Vespasian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Old_age"/>
+        <NamedIndividual IRI="#Vespasian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Vespasian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Vespasian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Vibia_Sabina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Town"/>
+        <NamedIndividual IRI="#Vindobana_Pannonia_Superia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empress"/>
+        <NamedIndividual IRI="#Vipsania_Agrippina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daughter_of_emperor"/>
+        <NamedIndividual IRI="#Vitellia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emperor"/>
+        <NamedIndividual IRI="#Vitellius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Predecessor"/>
+        <NamedIndividual IRI="#Vitellius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Successor"/>
+        <NamedIndividual IRI="#Vitellius"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <NamedIndividual IRI="#Lanuvium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <NamedIndividual IRI="#Lorium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <NamedIndividual IRI="#Faustina_the_Younger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <NamedIndividual IRI="#Lucius_Verus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <NamedIndividual IRI="#Annia_Galeria_Faustina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <NamedIndividual IRI="#Hadrian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Augustus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Augustus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Augustus"/>
+        <NamedIndividual IRI="#Nola"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Augustus"/>
+        <NamedIndividual IRI="#Livia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Augustus"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Augustus"/>
+        <NamedIndividual IRI="#Julius_Caesar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <NamedIndividual IRI="#Antium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <NamedIndividual IRI="#Julia_Drusilla_the_younger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <NamedIndividual IRI="#Junia_Claudilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <NamedIndividual IRI="#Livia_Orestilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <NamedIndividual IRI="#Lollia_Paulina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <NamedIndividual IRI="#Milonia_Caesonia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <NamedIndividual IRI="#Claudius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Lugdunum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Britannicus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Claudia_Antonia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Claudia_Octavia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Claudius_Drusus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Aelia_Paetina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Julia_Agrippina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Plautia_Urgulanilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Valeria_Messalina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Commodus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Commodus"/>
+        <NamedIndividual IRI="#Lanuvium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Commodus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Commodus"/>
+        <NamedIndividual IRI="#Bruttia_Crispina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Commodus"/>
+        <NamedIndividual IRI="#Pertinax"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Commodus"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+        <NamedIndividual IRI="#Mediolanum_Italy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+        <NamedIndividual IRI="#Didia_Clara"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+        <NamedIndividual IRI="#Manlia_Scantilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+        <NamedIndividual IRI="#Pertinax"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Domitian"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Domitian"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Domitian"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Domitian"/>
+        <NamedIndividual IRI="#Flavius_Caesar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Domitian"/>
+        <NamedIndividual IRI="#Domitia_Longina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Domitian"/>
+        <NamedIndividual IRI="#Nerva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Domitian"/>
+        <NamedIndividual IRI="#Titus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#son_of_emperor"/>
+        <NamedIndividual IRI="#Drusus_Julius_Caesar"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Galba"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Galba"/>
+        <NamedIndividual IRI="#Terracina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Galba"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Galba"/>
+        <NamedIndividual IRI="#Lucius_Calpurnius_Piso_Frugi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Galba"/>
+        <NamedIndividual IRI="#Aemilia_Lepida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Galba"/>
+        <NamedIndividual IRI="#Otho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Galba"/>
+        <NamedIndividual IRI="#Nero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Hadrian"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Hadrian"/>
+        <NamedIndividual IRI="#Italica_Hispania"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Hadrian"/>
+        <NamedIndividual IRI="#Baiae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Hadrian"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Hadrian"/>
+        <NamedIndividual IRI="#Lucius_Aelius_Caesar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Hadrian"/>
+        <NamedIndividual IRI="#Vibia_Sabina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Hadrian"/>
+        <NamedIndividual IRI="#Trajan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#daughter_of_emperor"/>
+        <NamedIndividual IRI="#Julia_Drusilla_the_younger"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wife_of"/>
+        <NamedIndividual IRI="#Livia"/>
+        <NamedIndividual IRI="#Augustus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+        <NamedIndividual IRI="#Vindobana_Pannonia_Superia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+        <NamedIndividual IRI="#Commodus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+        <NamedIndividual IRI="#Faustina_the_Younger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+        <NamedIndividual IRI="#Commodus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Nero"/>
+        <NamedIndividual IRI="#Antium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Nero"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Nero"/>
+        <NamedIndividual IRI="#Claudia_Augusta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Nero"/>
+        <NamedIndividual IRI="#Claudia_Octavia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Nero"/>
+        <NamedIndividual IRI="#Poppaea_Sabina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Nero"/>
+        <NamedIndividual IRI="#Statilia_Messalina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Nero"/>
+        <NamedIndividual IRI="#Galba"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Nero"/>
+        <NamedIndividual IRI="#Claudius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Nerva"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Nerva"/>
+        <NamedIndividual IRI="#Narni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Nerva"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Nerva"/>
+        <NamedIndividual IRI="#Domitian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Otho"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Otho"/>
+        <NamedIndividual IRI="#Ferentium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Otho"/>
+        <NamedIndividual IRI="#Brescello"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Otho"/>
+        <NamedIndividual IRI="#Poppaea_Sabina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Otho"/>
+        <NamedIndividual IRI="#Vitellius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Otho"/>
+        <NamedIndividual IRI="#Galba"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Pertinax"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Pertinax"/>
+        <NamedIndividual IRI="#Alba_Pompeia_Italy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Pertinax"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Pertinax"/>
+        <NamedIndividual IRI="#Flavia_Titiana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Pertinax"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Pertinax"/>
+        <NamedIndividual IRI="#Commodus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <NamedIndividual IRI="#Leptis_Magna_Africa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <NamedIndividual IRI="#Eboracum_Britain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <NamedIndividual IRI="#Caracalla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <NamedIndividual IRI="#Geta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <NamedIndividual IRI="#Julia_Domna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <NamedIndividual IRI="#Paccia_Marciana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+        <NamedIndividual IRI="#Misenum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+        <NamedIndividual IRI="#Drusus_Julius_Caesar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+        <NamedIndividual IRI="#Julia_the_Elder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+        <NamedIndividual IRI="#Vipsania_Agrippina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+        <NamedIndividual IRI="#Augustus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Titus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Titus"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Titus"/>
+        <NamedIndividual IRI="#Flavia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Titus"/>
+        <NamedIndividual IRI="#Julia_Flavia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Titus"/>
+        <NamedIndividual IRI="#Arrecina_Tertulla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Titus"/>
+        <NamedIndividual IRI="#Berenice"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Titus"/>
+        <NamedIndividual IRI="#Marcia_Furnilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Titus"/>
+        <NamedIndividual IRI="#Domitian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Titus"/>
+        <NamedIndividual IRI="#Vespasian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Trajan"/>
+        <NamedIndividual IRI="#Italica_Hispania"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Trajan"/>
+        <NamedIndividual IRI="#Selinua_Cilicia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Trajan"/>
+        <NamedIndividual IRI="#Aelia_Domitia_Paulina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Trajan"/>
+        <NamedIndividual IRI="#Hadrian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Trajan"/>
+        <NamedIndividual IRI="#Pompeia_Plotina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Trajan"/>
+        <NamedIndividual IRI="#Hadrian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Trajan"/>
+        <NamedIndividual IRI="#Nerva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <NamedIndividual IRI="#Falacrinum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <NamedIndividual IRI="#Aquae_Cutiliae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <NamedIndividual IRI="#Domitian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <NamedIndividual IRI="#Domitilla_the_Younger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <NamedIndividual IRI="#Titus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <NamedIndividual IRI="#Caenis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <NamedIndividual IRI="#Domitilla_the_Elder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <NamedIndividual IRI="#Titus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <NamedIndividual IRI="#Vitellius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Capital_of"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#born_at"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#died_at"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <NamedIndividual IRI="#Rome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <NamedIndividual IRI="#Aulus_Vitellius_Germanicus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <NamedIndividual IRI="#Aulus_Vitellius_Petronianus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#father_of"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <NamedIndividual IRI="#Vitellia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#husband_of"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <NamedIndividual IRI="#Galeria_Fundana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preceed"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <NamedIndividual IRI="#Vespasian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#succeeded"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <NamedIndividual IRI="#Otho"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0161-03-07T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0086-09-19T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0161-03-07T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Antoninus_Pius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0138-07-11T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Augustus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0014-08-19T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Augustus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">-0063-09-23T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Augustus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0014-08-19T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Augustus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">-0027-01-16T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0041-01-24T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0012-08-31T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0041-01-24T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0037-03-16T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0054-10-13T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">-0010-08-01T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0054-10-13T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Claudius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0041-01-24T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Commodus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0192-12-31T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Commodus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0161-08-31T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Commodus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0192-12-31T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Commodus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0176-11-27T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0193-06-02T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0133-01-29T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0193-06-02T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Didius_Julianus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0193-03-28T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Domitian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0096-09-18T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Domitian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0051-10-24T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Domitian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0096-09-18T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Domitian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0081-09-14T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Galba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0069-01-15T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Galba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">-0003-12-24T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Galba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0069-01-15T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Galba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0068-06-08T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Hadrian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0138-07-10T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Hadrian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0076-01-24T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Hadrian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0138-07-10T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Hadrian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0117-08-11T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Julius_Caesar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">-0044-03-15T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Julius_Caesar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">-0100-07-12T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0180-03-17T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0121-04-26T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0180-03-17T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Marcus_Aurelius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0161-03-07T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Nero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0068-06-09T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Nero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0037-12-15T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Nero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0068-06-09T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Nero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0054-10-13T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Nerva"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0098-01-27T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Nerva"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0030-11-08T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Nerva"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0098-01-27T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Nerva"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0096-09-18T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Otho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0069-01-15T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Otho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0032-04-28T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Otho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0069-04-16T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Otho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0069-01-15T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Pertinax"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0193-03-28T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Pertinax"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0126-08-01T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Pertinax"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0193-03-28T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Pertinax"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0192-12-31T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0145-04-11T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0211-02-04T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0211-02-04T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Septimius_Severus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0193-04-09T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0037-03-16T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">-0042-11-16T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0037-03-16T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Tiberius_Julius_Caesar_Augustus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0014-09-17T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Titus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0081-09-13T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Titus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0039-12-13T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Titus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0081-09-13T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Titus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0079-06-24T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Trajan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0117-08-11T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Trajan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0053-09-18T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Trajan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0117-08-11T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Trajan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0098-01-28T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0079-06-23T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0009-11-17T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0079-06-23T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Vespasian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0069-08-01T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_of_death"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0069-12-20T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateofbirth"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0015-08-24T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_ended"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0069-12-20T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rule_start"/>
+        <NamedIndividual IRI="#Vitellius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0069-04-16T12:00:31+05:30</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Won_battle"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#daughter_of"/>
+        <ObjectProperty IRI="#son-daughter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#daughter_of_emperor"/>
+        <ObjectProperty IRI="#son-daughter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#father_of"/>
+        <ObjectProperty IRI="#son-daughter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#husband_of"/>
+        <ObjectProperty IRI="#son-daughter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#lost_battle"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#mother_of"/>
+        <ObjectProperty IRI="#son-daughter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#preceed"/>
+        <ObjectProperty IRI="#succession"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#son-daughter"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#son_of"/>
+        <ObjectProperty IRI="#son-daughter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#son_of_emperor"/>
+        <ObjectProperty IRI="#son-daughter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#succeeded"/>
+        <ObjectProperty IRI="#succession"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#wife_of"/>
+        <ObjectProperty IRI="#son-daughter"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#husband_of"/>
+        <ObjectProperty IRI="#wife_of"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Battle_in_a_war"/>
+        <Class IRI="#Battlefield"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Capital_of"/>
+        <Class IRI="#Emperor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Capital_of"/>
+        <Class IRI="#King"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Won_battle"/>
+        <Class IRI="#Roles"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#born_at"/>
+        <Class IRI="#Roles"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#daughter_of_emperor"/>
+        <Class IRI="#Daughter_of_emperor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#depose"/>
+        <Class IRI="#deposer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#died_at"/>
+        <Class IRI="#Roles"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#general_under"/>
+        <Class IRI="#General"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#governor_of"/>
+        <Class IRI="#governor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#governor_under"/>
+        <Class IRI="#governor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#husband_of"/>
+        <Class IRI="#Emperor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lost_battle"/>
+        <Class IRI="#Roles"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preceed"/>
+        <Class IRI="#Predecessor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ruled_over"/>
+        <Class IRI="#Emperor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ruled_over"/>
+        <Class IRI="#Empress"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ruled_over"/>
+        <Class IRI="#King"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#son_of_emperor"/>
+        <Class IRI="#Son_of_emperor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#succeeded"/>
+        <Class IRI="#Emperor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#succeeded"/>
+        <Class IRI="#Successor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wife_of"/>
+        <Class IRI="#Empress"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Capital_of"/>
+        <Class IRI="#Capital"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Won_battle"/>
+        <Class IRI="#Battlefield"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#born_at"/>
+        <Class IRI="#BirthPlace"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#daughter_of_emperor"/>
+        <Class IRI="#Emperor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#daughter_of_emperor"/>
+        <Class IRI="#Empress"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#depose"/>
+        <Class IRI="#deposed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#died_at"/>
+        <Class IRI="#DeathPlace"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#general_under"/>
+        <Class IRI="#Emperor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#general_under"/>
+        <Class IRI="#King"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#governor_of"/>
+        <Class IRI="#Province"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#governor_under"/>
+        <Class IRI="#Emperor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#governor_under"/>
+        <Class IRI="#Empress"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#husband_of"/>
+        <Class IRI="#Empress"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lost_battle"/>
+        <Class IRI="#Battlefield"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preceed"/>
+        <Class IRI="#Successor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ruled_over"/>
+        <Class IRI="#Empire"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ruled_over"/>
+        <Class IRI="#Kingdom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#son_of_emperor"/>
+        <Class IRI="#Emperor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#son_of_emperor"/>
+        <Class IRI="#Empress"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#succeeded"/>
+        <Class IRI="#Emperor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#succeeded"/>
+        <Class IRI="#Predecessor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#war-area"/>
+        <Class IRI="#Area"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wife_of"/>
+        <Class IRI="#Emperor"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Battle_date"/>
+        <DataProperty IRI="#war_period"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Battle_duration_days"/>
+        <DataProperty IRI="#war_period"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#rule_ended"/>
+        <DataProperty IRI="#emperor_reign"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#rule_start"/>
+        <DataProperty IRI="#emperor_reign"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#war_end"/>
+        <DataProperty IRI="#war_period"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#war_period"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#war_start"/>
+        <DataProperty IRI="#war_period"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Battle_date"/>
+        <Class IRI="#Battlefield"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#date_of_death"/>
+        <Class IRI="#Roles"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateofbirth"/>
+        <Class IRI="#Roles"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#emperor_reign"/>
+        <Class IRI="#Emperor"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Battle_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Battle_duration_days"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#date_of_death"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateofbirth"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#emperor_reign"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rule_ended"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rule_start"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#war_end"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#war_period"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#war_start"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aelia_Domitia_Paulina</IRI>
+        <Literal xml:lang="en">adopted daughter of Trajan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aemilia_Lepida</IRI>
+        <Literal xml:lang="en">Wife of Galba</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Antoninus_Pius</IRI>
+        <Literal xml:lang="en">adopted by Hadrian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Arrecina_Tertulla</IRI>
+        <Literal xml:lang="en">wife of Titus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Augustus</IRI>
+        <Literal xml:lang="en">&quot;Augustus (also known as Octavian) was the first emperor of ancient Rome&quot;
+https://en.wikipedia.org/wiki/Augustus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aulus_Vitellius_Germanicus</IRI>
+        <Literal xml:lang="en">Son of Vitellius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aulus_Vitellius_Petronianus</IRI>
+        <Literal xml:lang="en">Son of Vitellius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Battle_date</IRI>
+        <Literal xml:lang="en">first date of the battle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Battle_duration_days</IRI>
+        <Literal xml:lang="en">duaration of the battle in days</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Battle_in_a_war</IRI>
+        <Literal xml:lang="en">Battle that was part of a war</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Berenice</IRI>
+        <Literal xml:lang="en">concubine of Titus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Britannicus</IRI>
+        <Literal xml:lang="en">Son of Claudius and Messalina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bruttia_Crispina</IRI>
+        <Literal xml:lang="en">wife of Commodus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Caenis</IRI>
+        <Literal xml:lang="en">mistress/defacto wife of Vespasian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Caligula__Gaius_Julius_Caesar_Augustus_Germanicus</IRI>
+        <Literal xml:lang="en">Gaius Julius Caesar Augustus Germanicus (31 August 12 – 24 January 41), better known by his nickname Caligula (/kəˈlɪɡjʊlə/), was the third Roman emperor, ruling from 37 until his assassination in 41. He was the son of the popular Roman general Germanicus and Augustus&apos; granddaughter Agrippina the Elder. Caligula was born into the first ruling family of the Roman Empire, conventionally known as the Julio-Claudian dynasty.
+
+
+Source - https://en.wikipedia.org/wiki/Caligula</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Capital_of</IRI>
+        <Literal xml:lang="en">Different emperors had capital in places other than rome like Constantinople, Milan and Ravenna in the later period ofthe empire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Claudia_Antonia</IRI>
+        <Literal xml:lang="en">daughter of Claudius and Paetina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Claudia_Augusta</IRI>
+        <Literal xml:lang="en">Only daughter of Emperor Nero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Claudia_Octavia</IRI>
+        <Literal xml:lang="en">Daughter of Claudius and Messalina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Claudius</IRI>
+        <Literal xml:lang="en">Tiberius Claudius Caesar Augustus Germanicus (/ˈklɔːdiəs/; 1 August 10 BC – 13 October AD 54) was the fourth Roman emperor, ruling from AD 41 to 54. A member of the Julio-Claudian dynasty, Claudius was born to Drusus and Antonia Minor at Lugdunum in Roman Gaul, where his father was stationed as a military legate. He was the first Roman emperor to be born outside Italy. Nonetheless, Claudius was an Italian of Sabine origins.
+
+Source-https://en.wikipedia.org/wiki/Claudius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Claudius_Drusus</IRI>
+        <Literal xml:lang="en">Son of Emperor Claudius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Commodus</IRI>
+        <Literal xml:lang="en">son of Marcus Aurelius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Death</IRI>
+        <Literal xml:lang="en">Describes the death of people from various reasons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domitia_Longina</IRI>
+        <Literal xml:lang="en">wife of Domitian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domitilla_the_Elder</IRI>
+        <Literal xml:lang="en">wife of vespasian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Faustina_the_Younger</IRI>
+        <Literal xml:lang="en">daughter of Antoninus Pius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Flavia</IRI>
+        <Literal xml:lang="en">daughter of Titus and Furnila</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Flavius_Caesar</IRI>
+        <Literal xml:lang="en">son of Emperor Domitian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Galba</IRI>
+        <Literal xml:lang="en">Galba was the successor to Nero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Galeria_Fundana</IRI>
+        <Literal xml:lang="en">empress of Vitellus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hadrian</IRI>
+        <Literal xml:lang="en">adopted son of Trajan and his successor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Julia_Flavia</IRI>
+        <Literal xml:lang="en">daughter of Titus and Arrecina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Livia</IRI>
+        <Literal xml:lang="en">Livia was the wife of Octavius at the time of his death</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lucius_Aelius_Caesar</IRI>
+        <Literal xml:lang="en">adopted by hadrian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lucius_Calpurnius_Piso_Frugi</IRI>
+        <Literal xml:lang="en">Son of Galba</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lucius_Verus</IRI>
+        <Literal xml:lang="en">Adopted son of Antoninus Pius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Marcia_Furnilla</IRI>
+        <Literal xml:lang="en">wife of Titus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Marcus_Aurelius</IRI>
+        <Literal xml:lang="en">adopted son of Antoninus Pius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nero</IRI>
+        <Literal xml:lang="en">Nero Claudius Caesar Augustus Germanicus was the fifth Roman emperor and he succeeded Claudius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nerva</IRI>
+        <Literal xml:lang="en">Was the advisor of Domitian and followed him as the Emperor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Otho</IRI>
+        <Literal xml:lang="en">Otho succeeded Galba by conspiring and assasinating him</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pompeia_Plotina</IRI>
+        <Literal xml:lang="en">Wife of Trajan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Poppaea_Sabina</IRI>
+        <Literal xml:lang="en">wife of nero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Roman_Colosseum</IRI>
+        <Literal xml:lang="en">Built by Vespasian as the Flavian amphitheatre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Selinua_Cilicia</IRI>
+        <Literal xml:lang="en">Selinus Cilicia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Septimius_Severus</IRI>
+        <Literal xml:lang="en">Founder of the Severan Dynasty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tiberius_Julius_Caesar_Augustus</IRI>
+        <Literal xml:lang="en">Tiberius Julius Caesar Augustus was the successsor to Augustus and he was the second roman emperor.
+
+https://en.wikipedia.org/wiki/Tiberius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Trajan</IRI>
+        <Literal xml:lang="en">Trajan followed Nerva as the Emperor after the former died due to old age and disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vespasian</IRI>
+        <Literal xml:lang="en">Vespasian followed Vitellus as the Roman empror after defeating him</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vibia_Sabina</IRI>
+        <Literal xml:lang="en">wife of Hadrian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vitellia</IRI>
+        <Literal xml:lang="en">Daughter of Vitellus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Won_battle</IRI>
+        <Literal xml:lang="en">person won a battle at a place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#born_at</IRI>
+        <Literal xml:lang="en">People are born at their birth place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#court_official</IRI>
+        <Literal xml:lang="en">official at the roman court</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#date_of_death</IRI>
+        <Literal xml:lang="en">date of death of a person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#daughter_of_emperor</IRI>
+        <Literal xml:lang="en">daugter of emperor is the emperor and empress&apos;s daughter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#depose</IRI>
+        <Literal xml:lang="en">the deposer deposed the deposed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#deposed</IRI>
+        <Literal xml:lang="en">a person deposed by someone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#deposer</IRI>
+        <Literal xml:lang="en">person who deposes somone else</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#died_at</IRI>
+        <Literal xml:lang="en">People died at death place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#emperor_reign</IRI>
+        <Literal xml:lang="en">period of rule of the emperor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#father_of</IRI>
+        <Literal xml:lang="en">x ...is the father of ...y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#general_under</IRI>
+        <Literal xml:lang="en">Genral is a genral under a emperor or king</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#governor</IRI>
+        <Literal xml:lang="en">Governor of a roman province</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#governor_of</IRI>
+        <Literal xml:lang="en">A person is govenor of a province</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#governor_under</IRI>
+        <Literal xml:lang="en">A person is the governor under a emperor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#husband_of</IRI>
+        <Literal xml:lang="en">emperor is the husaband of the empress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#lost_battle</IRI>
+        <Literal xml:lang="en">person lost battle at a place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#preceed</IRI>
+        <Literal xml:lang="en">Predecessor preceeds the successor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#rule_ended</IRI>
+        <Literal xml:lang="en">end of reign of the emperor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#rule_start</IRI>
+        <Literal xml:lang="en">start of reign of the emperor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ruled_over</IRI>
+        <Literal xml:lang="en">King rules over an kingdom
+empror rules over an empire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#soldier</IRI>
+        <Literal xml:lang="en">soldier in the army, could be roman or other</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#son-daughter</IRI>
+        <Literal xml:lang="en">Family</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#son_of_emperor</IRI>
+        <Literal xml:lang="en">sonof emperor is the son ofthe emperor and empress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#succeeded</IRI>
+        <Literal xml:lang="en">Successor succeeds the predecessor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#war-area</IRI>
+        <Literal xml:lang="en">war took place in an area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#war_period</IRI>
+        <Literal xml:lang="en">time period of the war</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#wife_of</IRI>
+        <Literal>empress is the wife of the emperor</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
